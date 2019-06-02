@@ -1,0 +1,27 @@
+{
+  "name": "npm-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioR9/npm-lab-dc-web-career-040119.git"
+  },
+  "author": "Mario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioR9/npm-lab-dc-web-career-040119/issues"
+  },
+  "homepage": "https://github.com/MarioR9/npm-lab-dc-web-career-040119#readme"
+}
